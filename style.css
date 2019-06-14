@@ -1,0 +1,71 @@
+@@font-face {
+  font-family: 'vogue':
+  src: url(Vogue.ttf) format('truetype'),
+}
+
+@font-face {
+  font-family: 'Annamellia';
+  src: url('Annamellia.ttf')  format('truetype'),
+}
+#title{
+  font-family: 'Vogue', Fallback, sans-serif;
+  font-size: 100px;
+  padding-left: 39%;
+  margin-bottom: -90px;
+}
+
+#main-text{
+  font-family: 'Annamellia', Fallback, sans-serif;
+  font-size: 50px;
+  padding-left: 35%;
+  padding-top: -40px;
+}
+
+.userimput /* user imput formatting  */{
+  margin-top: 30px;
+  background: #yellow;
+}
+
+.name /* form imput*/{
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.submit-btn/* submit button format */ {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  border-radius: 2px;
+  color: black;
+  font-size: 100%;
+}
+
+.card-container /* the purple border surrounding <userimput> */{
+  padding: 30px;
+  background: #544A48; /* the purple background */
+  justify-content: center;
+}
+
+.name-card /* puts the task below */{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  background: #E78469;
+}
+
+.content {
+  padding: 50px;
+  border: solid #E37F57 10px;
+  background-color: #F7F7F3;
+  margin: 50px;
+}
+.form{
+  margin:auto;
+  display: inline;
+  width: 50%;
+  padding: 10px;
+}
+/*  */
